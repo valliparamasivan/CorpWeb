@@ -1,0 +1,126 @@
+.header-section {
+    background-color: #fff;
+}
+
+.header-section .container {
+    padding-block: 15px;
+}
+
+.header-section nav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header-section ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header-section ul li a {
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+  
+.header-section ul li:hover,
+.header-section ul li a:hover {
+    cursor: pointer;
+}
+
+.header-section ul li a.active {
+   border-bottom: 3px solid #d5a388;
+}
+  
+.mini-header{
+    background-color: #000;
+    color: #ffff;
+    padding-block: 8px;
+    font-size: 14px;
+}
+
+.mini-header p {
+    max-width: 90vw;
+    margin: auto;
+}
+
+.footer-section {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-section .footer-main {
+    padding-bottom: 100px;
+    margin-top: 32px;
+}
+  
+.footer-section .footer-content p {
+    font-size: 14px;
+    color: #fff;
+    padding-block: 8px;
+    padding-bottom: 10px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(40deg, #d5a388, #d5a388);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.footer-section ul li {
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 30px;
+    font-weight: 400 !important;
+    color: rgb(201, 201, 201);
+}
+
+.footer-section ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 400 !important;
+    color: rgb(201, 201, 201);
+}
+
+.footer-section ul li a:hover{
+    color: #ffff;
+}
+
+.mini-footer{
+    background: linear-gradient(280deg, #000, #d5a388);
+    padding-block: 10px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background: linear-gradient(280deg, #000, #d5a388)
+}
+
+.mobile-link a {
+    text-decoration: none;
+    margin-left: -5px;
+    color: #4c4c4c;
+    font-weight: 600;
+}
+
+.mobile-link a.active{
+    border-bottom: 3px solid #d5a388;
+}
